@@ -1,4 +1,4 @@
-[
+export const Produtos = [
   {
     id: 1,
     name: 'Jaleco',
@@ -6,6 +6,7 @@
       'Jaleco de alta qualidade fabricado para atender aos clientes mais exigentes',
     price: 'R$ 999,99',
     available: true,
+    discount_in_percent: '14',
   },
   {
     id: 2,
@@ -54,6 +55,7 @@
       'Jaleco de alta qualidade fabricado para atender aos clientes mais exigentes',
     price: 'R$ 999,99',
     available: true,
+    discount_in_percent: '10',
   },
   {
     id: 8,
@@ -139,6 +141,7 @@
       'Canecas de cafe de 400ml com foto personalizadas impressas na hora',
     price: 'R$ 35,00',
     available: true,
+    discount_in_percent: '10',
   },
   {
     id: 20,
@@ -160,6 +163,7 @@
     description: 'Porta retrato com acrílicos',
     price: 'R$ 21,00',
     available: true,
+    discount_in_percent: '5',
   },
   {
     id: 23,
@@ -195,6 +199,7 @@
     description: 'Abafador para 75dB',
     price: 'R$ 61,75',
     available: true,
+    discount_in_percent: '7',
   },
   {
     id: 28,
